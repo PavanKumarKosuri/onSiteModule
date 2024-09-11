@@ -1,0 +1,19 @@
+
+  .qrRow,
+  .packageRow,
+  .subpackageRow {
+    border-bottom: 1px solid #ccc; /* Add borders for clarity */
+  }
+  .subpackageRow {
+    padding-left: 20px; /* Indent subpackage rows */
+  }
+
+  .nestedTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .subpackageList {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 20px; /* Indent sub-packages */
+  }

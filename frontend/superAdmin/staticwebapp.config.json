@@ -1,0 +1,23 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/home-page/*",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/user-details/*",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/reports/*",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/admin-dashboard/*",
+      "rewrite": "/index.html"
+    }
+  ]
+}
